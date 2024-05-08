@@ -1,14 +1,40 @@
-@charset "utf-8";
-@import url(fonts.css);
+header{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #004274;
+    
+    position: relative;
+    height: 70px;
+}
 
-/*-------------------------------------------------------------------
-    파일정의: Common css
-    순서:    Header > table > list > form ... > Footer 
--------------------------------------------------------------------*/
+.logo{
+    color: #fff;
+}
 
-/* header start */
-/* header end */
+header ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
 
+header ul li{
+    list-style-type: none;
+}
 
-/* footer start */
-/* footer end */
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family:'NotoSans';
+}
+
+.menu-icon{
+    display: inline-block;
+}
+
+.menu-icon i{
+    color: #fff;
+    font-size: 30px;
+}
+
