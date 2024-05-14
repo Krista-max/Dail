@@ -1,6 +1,15 @@
-
-.container {max-width: 1700px; margin: 0 auto;width: 95%;height: 100%;}
-.sub_container {max-width: 1200px; margin: 0 auto;width: 95%;height: 100%;}
+.container {
+  max-width: 1428px;
+  margin: 0 auto;
+  width: 95%;
+  height: 100%;
+}
+.sub_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 95%;
+  height: 100%;
+}
 header {
   padding: 15px 0px;
   display: flex;
@@ -8,18 +17,17 @@ header {
   justify-content: space-between;
   background: #004274;
 
-position:relative;
+  position: relative;
   /* height: 70px; */
-  
 }
 
-header .logo{
-  width:180px;
+header .logo {
+  width: 180px;
   height: 41px;
 }
-header .logo>img{
-    width:100%;
-    height:100%;
+header .logo > img {
+  width: 100%;
+  height: 100%;
 }
 header ul {
   display: flex;
@@ -36,12 +44,12 @@ header ul li a {
   color: #fff;
 
   font-size: 20px;
-letter-spacing: -1px;
-line-height: 80px;
+  letter-spacing: -1px;
+  line-height: 80px;
 
-font-weight: 500;
-font-family: "Noto Sans KR";
-text-align: center;
+  font-weight: 500;
+  font-family: "Noto Sans KR";
+  text-align: center;
 }
 
 header .menu-icon {
