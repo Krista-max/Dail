@@ -3,7 +3,7 @@
 /* standard css start */
 ul, li, ol {list-style:none;}
 img, fieldset {border:none;}
-img, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, select, label, p, blockquote, table, th, td, button,
+img, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, label, p, blockquote, table, th, td, button,
 abbr, acronym, applet, audio, big, canvas, cite, dfn, code, samp, kbd, var, datalist, details, keygen, small, source, strike, sub, sup, tt {margin:0; padding:0;}
 table {border-collapse:collapse;}
 address {font-style:normal; font-weight:normal;}
@@ -14,7 +14,7 @@ header, footer, section, article, aside, nav, hgroup, details, menu, figure, fig
 button {cursor:pointer;box-sizing: border-box;display:block;border:none; background:none; font-family:inherit; color:#000;}
 hr {display:none;}
 legend {position:absolute; left:-1000%; top:0; width:1px; height:1px; font-size:0; line-height:0; overflow:hidden; text-indent:-9999px;}
-input, button, select, textarea {vertical-align:top;}
+input, button, textarea {vertical-align:top;}
 label {vertical-align:top; cursor:pointer; display:inline-block;}
 img {width:100%; vertical-align:top;border: none;height: auto;}
 p, a {word-break:keep-all;}
@@ -32,11 +32,16 @@ html, body {
 	font-family:'NotoSans','sans-serif';
 	-webkit-text-size-adjust:none;
 	color:#000;
+	overflow-x: hidden;
 	background-color: #fff;
 }
-input, textarea, select {
+input {
+	outline: none;
+}
+ textarea {
 	padding:10px 12px; 
 	width:100%; 
+	outline: none;
 	border:1px solid #797979;
 	box-sizing: border-box; 
 	-webkit-border-radius:0; border-radius:0;
@@ -60,3 +65,4 @@ a:focus {text-decoration:none;}
 *:focus {-webkit-tap-highlight-color: #797979,}
 
 strong {font-weight:normal;}
+
