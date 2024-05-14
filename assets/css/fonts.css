@@ -36,3 +36,12 @@
     src: url(../../fonts/NotoSans-bold.eot?#iefix) format('embedded-opentype'),
     url(../../fonts/NotoSans-bold.woff) format('woff');
 }
+
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Noto Sans light'), local('NotoSans-light'), url(../../fonts/NotoSansKR-Bold.otf);
+    src: url(../../fonts/NotoSansKR-Bold.otf?#iefix) format('embedded-opentype');
+  }

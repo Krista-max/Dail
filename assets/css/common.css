@@ -1,14 +1,62 @@
-@charset "utf-8";
-@import url(fonts.css);
+.container {
+  max-width: 1428px;
+  margin: 0 auto;
+  width: 95%;
+  height: 100%;
+}
+.sub_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 95%;
+  height: 100%;
+}
+header {
+  padding: 15px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #004274;
 
-/*-------------------------------------------------------------------
-    파일정의: Common css
-    순서:    Header > table > list > form ... > Footer 
--------------------------------------------------------------------*/
+  position: relative;
+  /* height: 70px; */
+}
 
-/* header start */
-/* header end */
+header .logo {
+  width: 180px;
+  height: 41px;
+}
+header .logo > img {
+  width: 100%;
+  height: 100%;
+}
+header ul {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
 
+header ul li {
+  list-style-type: none;
+}
 
-/* footer start */
-/* footer end */
+header ul li a {
+  text-decoration: none;
+  color: #fff;
+
+  font-size: 20px;
+  letter-spacing: -1px;
+  line-height: 80px;
+
+  font-weight: 500;
+  font-family: "Noto Sans KR";
+  text-align: center;
+}
+
+header .menu-icon {
+  display: inline-block;
+}
+
+header .menu-icon i {
+  color: #fff;
+  font-size: 30px;
+}
