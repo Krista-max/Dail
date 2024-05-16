@@ -301,7 +301,7 @@
     justify-content: center;
     color: white;
     position: relative;
-    /* padding: 0px 240px ; */
+    padding: 0px 240px ;
   }
   .slide_content h1 {
      font-size: 55px;
@@ -359,7 +359,7 @@
  .c_icon_gp {
   position: absolute;
   bottom: 10%;
-  left: 150px;
+  left: 250px;
   display: flex;
   align-items: center;
   gap: 40px;
