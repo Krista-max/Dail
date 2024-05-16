@@ -65,6 +65,7 @@
       }
       .main_sliders {
         width: 90vw; 
+        overflow: hidden;
       }
       .conts1_header {
         font-size: 34px;
@@ -74,7 +75,7 @@
         width: 720px;
       }
       .slider_card {
-        width: 28%;
+        width: 300px;
         height: 350px;
         background-color: white;
         cursor: pointer;
@@ -90,7 +91,7 @@
         font-size: 14px;
       }
       .active_2 {
-        width: 30%;
+        width: 400px;
         height: 380px;
         background-color: #171c61;
         color: white;
