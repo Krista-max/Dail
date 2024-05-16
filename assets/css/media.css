@@ -1109,17 +1109,7 @@
       .page5_container {
         padding: 60px 10px;
       }
-      header ul{
-        position: absolute;
-        top: 70px;
-        left: 0;
-        right: 0;
-        flex-direction: column;
-        text-align: center;
-        background: #004274;
-        gap: 0;
-        overflow: hidden;
-    }
+  
     header ul li{
         padding: 20px;
         margin: 0;
