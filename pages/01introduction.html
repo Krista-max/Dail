@@ -10,7 +10,7 @@
         <title>Project Name</title>
 
         <!-- Style -->
-        <script src="https://kit.fontawesome.com/82f797382f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
         <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
       
         <link rel="stylesheet" type="text/css" href="/assets/css/common.css">
@@ -18,25 +18,28 @@
     </head>
     <body>
         <div class="wrap page01">
-            <!-- GNB-->
-            <!-- <header class="container">
-                <div class="logo">
-                    <img src="../assets/imgs/icons/logo.png" alt="">
+            <header>
+                <nav>
+                   <div class="logo">
+                    <img src="/assets/imgs/icons/logo.png" alt="">
+                   </div>
+                   <ul>
+                        <li><a href="">다일소개</a></li>
+                        <li><a href="">구성인</a></li>
+                        <li><a href="">업무분야</a></li>
+                        <li><a href="">업무사례</a></li>
+                        <li><a href="">상담문의</a></li>
+                        <li><a href="">커뮤니티</a></li>
+                   </ul>
+                   <div class="menu-icon">
+                    <button> 
+                        <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+                        <i class="fa-solid fa-xmark close_active" onclick="toggleMenu()"></i>
+                    </button>
                 </div>
-                <ul id="menuList">
-                    <li><a href="">다일소개</a></li>
-                    <li><a href="">구성인</a></li>
-                    <li><a href="">업무분야</a></li>
-                    <li><a href="">업무사례</a></li>
-                    <li><a href="">상담문의</a></li>
-                    <li><a href="">커뮤니티</a></li>
-                </ul>
-
-                <div class="menu-icon">
-                    <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
-                </div>
-            </header> -->
-           <!-- //GNB -->
+                </nav>
+            </header>
+         
       <!-- Banner start -->
       <section class=" banner">
         <div 
@@ -152,25 +155,8 @@ style="background: url(../assets/imgs/icons/page01info.png);
 
  <!-- customer service end  -->
         </div>
+        <!-- Script -->
+        <script src="/assets/js/common.js"></script>
     </body>
 
-    <!-- Script -->
-    <script src="/assets/js/common.js"></script>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script>
-        let menuList = document.getElementById("menuList")
-        menuList.style.maxHeight = "0px";
-
-        function toggleMenu(){
-            if(menuList.style.maxHeight == "0px")
-            {
-                menuList.style.maxHeight = "300px";
-            }
-            else{
-                menuList.style.maxHeight = "0px";
-            }
-        }
-        
-    </script>
-    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
 </html>

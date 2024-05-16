@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
         <!-- Style -->
         <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/common.css">
         <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
         <link rel="stylesheet" type="text/css" href="/assets/css/media.css">
     
@@ -18,18 +19,34 @@
     <body>
         <div class="wrap">
             <!-- GNB-->
-            <header class="head ">
-                <div class="header_inn container">
-
+            <header>
+                <nav>
+                   <div class="logo">
+                    <a href="/pages/main.html"><img src="/assets/imgs/icons/logo.png" alt=""></a>
+                   </div>
+                   <ul>
+                        <li><a href="">다일소개</a></li>
+                        <li><a href="">구성인</a></li>
+                        <li><a href="">업무분야</a></li>
+                        <li><a href="">업무사례</a></li>
+                        <li><a href="">상담문의</a></li>
+                        <li><a href="">커뮤니티</a></li>
+                   </ul>
+                   <div class="menu-icon">
+                    <button> 
+                        <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+                        <i class="fa-solid fa-xmark close_active" onclick="toggleMenu()"></i>
+                    </button>
                 </div>
-            </header> <!-- //GNB -->
+                </nav>
+            </header>
         
             <!-- Banner-->
           <section class="home_section">
                 <div class="slider">
                     <div class="slide_bg slide_bg1 active">
                         <div class="slide_bg_wrapper"></div>
-                        <div class="slide_content">
+                        <div class="slide_content container">
                             <h1>법무법인 다일은 <br>
                                 <span>최고의 법률 전문가</span>와 함께합니다.
                             </h1>
@@ -39,7 +56,7 @@
                     </div>
                     <div class="slide_bg slide_bg2">
                         <div class="slide_bg_wrapper"></div>
-                        <div class="slide_content">
+                        <div class="slide_content container">
                             <h1>법무법인 다일은 <br>
                                 <span>최고의 법률 전문가</span>와 함께합니다.
                             </h1>
@@ -49,7 +66,7 @@
                     </div>
                     <div class="slide_bg slide_bg3">
                         <div class="slide_bg_wrapper"></div>
-                        <div class="slide_content">
+                        <div class="slide_content container">
                             <h1>법무법인 다일은 <br>
                                 <span>최고의 법률 전문가</span>와 함께합니다.
                             </h1>
@@ -75,11 +92,11 @@
     
             <!-- 본문 -->
             <main class="conts">
-                <section class="conts1 container">
+                <section class="conts1  ">
                     <h1 class="conts1_header">다일 업무분야</h1>
                     <a href="">더보기 <img src="../assets/imgs/main/arr_a.png" alt=""></a>
-                  <div class="main_slide2">
-                    <div class="main_sliders swiper-container">
+                  <div class="main_slide2 ">
+                    <div class="main_sliders  swiper-container">
                         <div class="swiper-wrapper">
                             <!-- Repeat your slider cards here -->
                             <div class="swiper-slide slider_card">
@@ -93,7 +110,7 @@
                             </div>
                             <div class="swiper-slide slider_card ">
                                 <img src="../assets/imgs/main/const1-2.png" alt="">
-                                <div class="slider_card_content">
+                                <div class="slider_card_content ">
                                     <h1>법률</h1>
                                     <p>법률상담 및 고객사의 소송·중재 그리고 행정처분에 대한 소송 대리 및 행정 구제, 법률조언 등을... </p>
                                 </div>
@@ -104,7 +121,7 @@
                                 <img src="../assets/imgs/main/const1-3.png" alt="">
                                 <div class="slider_card_content">
                                     <h1>이혼·상속</h1>
-                                    <p>국내 최대 규모의 사건들을 수행하였던 경험을 통해 <br>
+                                    <p>국내 최대 규모의 사건들을 수행하였던 경험을 통해 
                                         축적된 노하우를 바탕으로 이혼·상속을 비롯한 ... </p>
                                 </div>
                             </div>
@@ -112,7 +129,7 @@
                                 <img src="../assets/imgs/main/const1-4.png" alt="">
                                 <div class="slider_card_content">
                                     <h1>민사</h1>
-                                    <p>전체 소송 중 가장 높은 비율을 차지하는 일반 민사 영역 <br>
+                                    <p>전체 소송 중 가장 높은 비율을 차지하는 일반 민사 영역 
                                         (채권채무, 부동산, 손해배상 등)에 있어서도 풍부한 경험..</p>
                                 </div>
                             </div>
@@ -138,7 +155,7 @@
                 
          
                 </section>
-                <section class="conts2 container">
+                <section class="conts2 ">
                     <div class="inn">
                         <h1>법무법인 다일 소개</h1>
                         <p>법무법인 다일은 다년간의 경험과 노하우를 바탕으로 최고의 전문가와 함께 <br>
@@ -146,7 +163,7 @@
                             <a>자세히 보기 <img src="/assets/imgs/main/btn_arr.png" alt=""></a>
                     </div>
                 </section>
-                <section class="conts3 container">
+                <section class="conts3 ">
                     <h1 class="conts3_header">다일 업무분야</h1>
                     <a href="">더보기 <img src="../assets/imgs/main/arr_a.png" alt=""></a>
                     <div class="search_bar">
@@ -248,7 +265,7 @@
                             </div>
                     </div>
                 </section>
-                <section class="conts4 container">
+                <section class="conts4 ">
                     <div class="conts4_box">
                       <div class="conts4_box1">
                         <h2>24시간 상담문의</h2>
@@ -287,14 +304,14 @@
                       </div>
                       <div class="conts4_box2">
                         <div class="conts4_box2_header">
-                          <h1>언론보도</h1>
+                          <h1>법률지식</h1>
                           <a href="">더보기 <img src="../assets/imgs/main/arr_a.png" alt=""></a>
                         </div>
                         <div class="conts4_list">
-                         <p>군형법 적용받는 영내사건, 개념과 대응 방법 <span>2021-11-12</span></p>
-                         <p>"술집 못가니 호텔로" 60대 유명화가, 20대 .. <span>2021-11-09</span></p>
-                         <p>퇴직공직자 취업심사대상 로펌 합류, 의뢰인 ..<span>2021-10-29</span></p>
-                         <p>아동, 청소년 대상 성범죄 처벌 강화 시행령의 <span>2021-10-23</span></p>
+                         <p> 직장내 험담, 명예훼손죄로 처벌될까?<span>2021-11-12</span></p>
+                         <p>나도 모르게 보이스피싱에 연루되었다고?<span>2021-11-09</span></p>
+                         <p>성범죄 사건엔 경찰 출신 변호사라고?<span>2021-10-29</span></p>
+                         <p>당신이 못받은 보너스 수백억?<span>2021-10-23</span></p>
                         </div>
                          
                        </div>

@@ -21,8 +21,21 @@
     height: 450px;
     width: 100vw;
     background-image: url(/assets/imgs/sub/page5_banner.png);
-    background-position: top;
+    background-position: center 10%;
     display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+.page7_banner {
+    height: 450px;
+    width: 100vw;
+    background-image: url(/assets/imgs/icons/page7_banner.png);
+    background-position: center 15%;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
 }
@@ -30,13 +43,14 @@
     width: 100vw;
     top: 0;
     left: 0;
-    height: 520px;
+    height: 450px;
     position: absolute;
     background-color:rgb(0, 0, 0,0.3);
 }
 .page5_banner_content {
     color: white;
     text-align: center;
+    position: relative;
 
 }
 .page5_banner_content h1 {
@@ -48,6 +62,7 @@
 .page5_banner_content p {
     font-size: 20px;
     line-height: 75px;
+    color: rgb(222, 222, 222);
     letter-spacing: -0.075em;
 }
 .pg5_banner_foot {
@@ -77,14 +92,16 @@
     color: white;
 }
 .page5_2 {
-   height: 100vh;
+   height: auto;
+  
 }
-.container {
+.page5_container {
+    overflow: hidden;
     padding: 105px 244px;
 }
 .page5_2_header {
     font-size: 42px;
-    letter-spacing: -0.060px;
+    letter-spacing: -0.060em;
     font-weight: 500;
     text-align: center;
 }
@@ -141,6 +158,12 @@
 .pg5_form input {
     padding:0px 10px;
 }
+.pg5_form label {
+    width: 230px;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: -0.075em;
+}
 .pg5_input_1 input {
     border: 1px solid rgb(191, 191, 191);
     height: 50px;
@@ -150,19 +173,13 @@
 .pg5_input_1 {
     height: 75px;
     width: 100%;
-    padding-left: 20px;
+    padding-left: 25px;
     display: flex;
     justify-content: start;
     border-bottom: 1px solid rgb(191, 191, 191);
     align-items: center;
 }
-.pg5_form label {
-    width: 120px;
-    margin-right: 90px;
-    font-size: 16px;
-    font-weight: 800;
-    letter-spacing: -0.075em;
-}
+
 .pg5_input_2 {
     height: 75px;
     width: 100%;
@@ -212,18 +229,16 @@
     padding: 16px 0;
     padding-left: 20px;
 }
-.pg5_input_3 textarea{
+.pg5_input_3 textarea {
     height: 266px;
     border: 1px solid rgb(191, 191, 191);
-    width: 100%;
+    width: 80%;
     padding: 20px;
-    margin: 0;
     outline: none;
 }
 
 .pg5_input_3 label {
-    width: 135px;
-    margin-right: 90px;
+    width: 230px;
     font-size: 16px;
     font-weight: 800;
     letter-spacing: -0.075em;
@@ -241,3 +256,118 @@
     align-items: center;
     margin-bottom: 150px;
 }
+.page5_list {
+    height: 750px;
+    width: 100%;
+    /* background-color: #171c61; */
+    margin-top: 90px;
+}
+/* page5List  */
+.page5_list_header {
+    font-size: 42px;
+    letter-spacing: -0.06em;
+    font-weight:500;
+    text-align: center;
+}
+.page5_list table {
+    width: 100%;
+}
+thead tr {
+    border-top: 3px solid rgb(58, 58, 58);
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid rgb(32, 32, 32);
+}
+thead tr td  {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -0.05em;
+}
+tbody tr td {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.05em;
+}
+tbody tr {
+    height: 60px;
+    width: 100%;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    transition: background-color 0.1s linear;
+}
+tbody tr:hover {
+    background-color: #f8f8f8;
+}
+.no_list {
+    width: 10%;
+    text-align: center;
+}
+.name_list {
+    width: 60%;
+    text-align: center;
+}
+.star_list {
+    width: 10%;
+    text-align: center;
+}
+.date_list {
+    width: 10%;
+    text-align: center;
+}
+.btn_list {
+    width: 10%;
+    text-align: center;
+}
+tbody tr .name_list {
+   text-align: start;
+   font-size: 16px;
+   letter-spacing: -0.05em;
+}
+ tbody .btn_list {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.btn_non_active {
+    width: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 32px;
+    background-color: #c9c9c9;
+    border-radius: 30px;
+}
+.name_list img {
+    width: 20px;
+    margin-right: 5px;
+}
+.active_btn {
+    background-color: #e94f4f;
+    color: white;
+}
+.page7_content {
+    width: 100%;
+    height: fit-content;
+    margin-top: 60px;
+}
+.page7_content1 {
+    margin-bottom: 20px;
+}
+.page7_content1 h1 {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.06em;
+    font-weight: 600;
+}
+.page7_content1 p {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.06em;
+    font-weight: 400;
+}
+
+
+/* page7  */

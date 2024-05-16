@@ -6,10 +6,169 @@
     순서:    Header(menu)> Sub Page > Main top(banner) > Footer > Aside
 -------------------------------------------------------------------*/
 
+
+@media screen and (max-width: 1500.98px) {
+    .container {
+        padding: 105px 140px;
+    }
+   
+    .slide_content{
+        padding: 0px 140px ;
+      }
+    nav {
+        display: flex;
+        padding: 8px 140px;
+    }
+    header ul {
+        gap: 40px;
+    }
+    .slide_content{
+        padding: 0px 140px ;
+      }
+      .c_icon_gp {
+        left: 140px;
+       }
+       .page5_container {
+        padding: 105px 140px;
+      }
+}
 @media screen and (max-width: 1300.98px) {
     .container {
         padding: 105px 100px;
     }
+    .slide_content{
+        padding: 0px 100px ;
+      }
+      nav {
+        display: flex;
+        padding: 8px 100px;
+    }
+      .slide_content h1 {
+        font-size: 45px;
+     }
+     .c_icon_gp {
+        left: 100px;
+       }
+       .conts1 {
+        padding-bottom: 40px;
+      }
+      .conts1_header {
+        font-size: 38px;
+      }
+      .conts1 a {
+        width: 1000px;
+        justify-content: center;
+      }
+      .main_slide2 {
+        height: 480px;
+        position: relative;
+      }
+      .main_sliders {
+        width: 90vw; 
+      }
+      .conts1_header {
+        font-size: 34px;
+        font-weight: 500;
+      }
+      .const1 a {
+        width: 720px;
+      }
+      .slider_card {
+        width: 28%;
+        height: 350px;
+        background-color: white;
+        cursor: pointer;
+      }
+      .slider_card_content {
+        padding: 20px 14px;
+      }
+      .slider_card_content h1 {
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+      .slider_card_content p {
+        font-size: 14px;
+      }
+      .active_2 {
+        width: 30%;
+        height: 380px;
+        background-color: #171c61;
+        color: white;
+        box-shadow: 2px 18px 26px 4px rgba(0,0,0,0.19);
+        -webkit-box-shadow: 2px 18px 26px 4px rgba(0,0,0,0.19);
+        -moz-box-shadow: 2px 18px 26px 4px rgba(0,0,0,0.3);
+      }
+      .main_sliders2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90vw; 
+        overflow: hidden;
+      } 
+      .prev {
+        left: -20px;
+        top: 40%;
+        transform: translateY(-50%);
+      }
+      .next {
+        right: -20px;
+        top: 40%;
+        transform: translateY(-50%);
+      }
+      header ul {
+        gap: 20px;
+    }
+    .conts2 {
+        width: 100vw;
+        height: 450px;
+      }
+    
+      .inn h1 {
+        font-size: 34px;
+      }
+      .inn p {
+        font-size: 20px;
+      }
+      .inn a {
+        width: 150px;
+        height: 40px;
+      }
+      .conts3 {
+        height: 700px;
+      }
+      .conts3_header {
+        padding-top: 0px;
+        font-size: 34px;
+      }
+      .conts3 a {
+        width: 700px;
+      }
+      .page5_container {
+        padding: 105px 100px;
+      }
+      .no_list {
+        width: 10%;
+        text-align: center;
+    }
+    .name_list {
+        width: 50%;
+        text-align: center;
+    }
+    .star_list {
+        width: 10%;
+        text-align: center;
+    }
+    .date_list {
+        width: 20%;
+        text-align: center;
+    }
+    .btn_list {
+        width: 15%;
+        text-align: center;
+    }
+    tbody tr td {
+      font-size: 15px;
+  }
 }
 @media screen and (max-width: 1000.98px) {
     .container {
@@ -22,7 +181,7 @@
     }
     .pg5_input_3 label {
         width: 100px;
-        margin-right: 40px;
+        margin-right: 20px;
         font-size: 14px;
     }
     .page5_banner_content h1 {
@@ -43,6 +202,134 @@
         width: 180px;
         height: 70px;
     }
+    nav {
+        display: flex;
+        padding: 8px 50px;
+    }
+    header .logo {
+      width: 120px;
+      position: relative;
+      z-index: 99;
+    }
+    header ul {
+       position: absolute;
+       top: 0px;
+       left: 0;
+       flex-direction: column;
+       align-items: start;
+       background-color: rgba(0,0,0,0.6);
+       transform: translateX(-200vw);
+       height: 100vh;
+       padding-top: 100px;
+       padding-left: 10%;
+       width: 100%;
+       gap: 20px;
+       transition: all 0.5s ease-in-out;
+    }
+    header ul li a {
+      line-height: 60px;
+      font-size: 18px;
+    }
+    .menu_active {
+       transform: translateX(0);
+    }
+    header .menu-icon i {
+      font-size: 24px;
+      transition: all 0.1s linear;
+      width: 25px;
+    }
+    .main_slide2 {
+        height: 70vh;
+        position: relative;
+        z-index: 99;
+      }
+    .slide_content{
+        padding: 0px 50px ;
+      }
+      .c_icon_gp {
+        left: 50px;
+       }
+       .slider_card {
+        width: 90vw;
+        height: 600px;
+        height: fit-content;
+        background-color: white;
+        cursor: pointer;
+      }
+      .prev2 ,.next2 ,.prev ,.next {
+        display: none;
+      }
+      
+   
+       .active_2 {
+        width: 90vw;
+        height: 600px;
+        height: fit-content;
+        height: fit-content;
+        background-color: #171c61;
+        color: white;
+        box-shadow: 2px 18px 26px 4px rgba(0,0,0,0.19);
+        -webkit-box-shadow: 2px 18px 26px 4px rgba(0,0,0,0.19);
+        -moz-box-shadow: 2px 18px 26px 4px rgba(0,0,0,0.3);
+      }
+      .slider_card_content {
+        padding: 40px 54px;
+      }
+      .search_bar {
+        width: 600px;
+        height: 60px;
+        position: relative;
+      }
+      .conts3 input {
+        width: 600px;
+      }
+      .main_sliders2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90vw; 
+        overflow: hidden;
+      }
+      .active_3 {
+        width: 40%;
+        height: 400px;
+      }
+      .conts4_box {
+        width: 800px;
+        height: 100%;
+        padding: 50px 20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 100px;
+        justify-content: space-between;
+      }
+      .page5_container {
+        padding: 105px 50px;
+      }
+      .no_list {
+        width: 10%;
+        text-align: center;
+    }
+    .name_list {
+        width: 45%;
+        text-align: center;
+    }
+    .star_list {
+        width: 10%;
+        text-align: center;
+    }
+    .date_list {
+        width: 15%;
+        text-align: center;
+    }
+    .btn_list {
+        width: 20%;
+        text-align: center;
+    }
+    tbody tr td {
+      font-size: 15px;
+  }
 
 }
 @media screen and (max-width: 767.98px) {
@@ -98,6 +385,117 @@
         flex-wrap: wrap;
         padding:20px 0;
     }
+    nav {
+        display: flex;
+        padding: 8px 20px;
+    } 
+    .slide_content{
+        padding: 0px 10px ;
+      }
+    .slide_content h1 {
+        font-size: 34px;
+        line-height: 50px;
+     }
+     .slide_content p {
+        font-size: 20px;
+        line-height: 40px;
+      }
+      .conts1_header {
+        padding-top: 40px;
+        font-size: 34px;
+      }
+      .main_sliders {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+        padding:0px 20px; 
+        overflow: hidden;
+      }
+      .c_icon_gp {
+        bottom: 5%;
+      }
+      .main_sliders2 {
+        width: 100vw;
+        justify-content: center;
+      }
+      .slider_card2 {
+        width: 95%;
+        height: fit-content;
+      }
+      .active_3 {
+        width: 95%;
+        height: fit-content;
+      }
+      
+      .conts3_header {
+        padding-top: 0px;
+        font-size: 24px;
+      }
+      .search_bar {
+        width: 80vw;
+        height: 60px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .conts4_box {
+        width: 1430px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .conts3 input {
+        width: 80vw;
+        height: 60px;
+        font-size: 18px;
+        border: 1px solid rgb(92, 92, 92);
+        padding: 0px 60px 0px 20px;
+      }
+      .conts4 {
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+      }
+      .conts4_box1 h2 {
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .conts4_box1 h1 {
+        color: #171c61;
+        font-size: 24px;
+        line-height: 40px;
+      }
+      .conts4_box1 p {
+        font-size: 18px;
+    }
+    .conts4_box1 button {
+        width: 180px;
+        height: 50px;
+        font-size: 15px;
+      }
+      .pc_i {
+        width: 25px;
+      }
+      .conts4_box2_header h1 {
+        font-size: 24px;
+      }
+      .conts4_box2_header a {
+        font-size: 14px;
+      }
+      .conts4_list p{
+        font-size: 16px;
+     }
+     .conts4_list span {
+        font-size: 14px;
+      }
+      .page5_container {
+        padding: 60px 10px;
+      }
+
 }
 @media screen and (max-width: 575.98px) {
     .container {
@@ -109,6 +507,13 @@
     .page5_2_box {
         margin-top: 50px;
     }
+    .page5_list {
+      margin-top: 50px;
+    }
+    .page5_list {
+      margin-top: 50px;
+    }
+
     .pg5_input_2 select {
         height: 50px;
         width: 90px;
@@ -169,7 +574,69 @@
         height: 60px;
         font-size: 14px;
     }
+    nav{
+        display: flex;
+        padding: 8px 20px;
+    } 
+    .slide_content h1 {
+        font-size: 28px;
+     }
+     .slide_content p {
+        font-size: 18px;
+      }
+      .main_slide2 {
+        height: 100%;
+      }
+      .conts4_box2 {
+        height: 298px;
+        width: 95%;
+        position: relative;
+      }
+      .active_2 {
+        width: 90vw;
+      }
+      .active_3 {
+        width: 90%;
+        margin-left: 20px;
+      }
+      .page5_container {
+        padding: 50px 10px;
+      }
+      .no_list {
+        width: 10%;
+        text-align: center;
+    }
+    .name_list {
+        width: 40%;
+        text-align: center;
+    }
+    .star_list {
+        width: 10%;
+        text-align: center;
+    }
+    .date_list {
+        width: 30%;
+        text-align: center;
+    }
+    .btn_list {
+        width: 20%;
+        text-align: center;
+    }
+    thead tr td {
+      font-size: 13px;
+    }
+    tbody tr td {
+      font-size: 13px;
+  }
+  tbody tr .name_list {
+    font-size: 13px;
+  }
+  .name_list img {
+    width: 15px;
+    margin-right: 3px;
+}
+    
 }
 @media screen and (max-width: 483px) {
-
+   
 }

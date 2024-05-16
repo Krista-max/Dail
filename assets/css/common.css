@@ -1,3 +1,6 @@
+.wrap {
+  position: relative;
+}
 .container {
   max-width: 1428px;
   margin: 0 auto;
@@ -11,14 +14,23 @@
   height: 100%;
 }
 header {
-  padding: 15px 0px;
+  width: 100vw;
+  position:absolute;
+  height: 70px;
+  z-index: 22;
+  top: 0;
+  left: 50%;
   display: flex;
-  align-items: center;
+  justify-content: center;
+  transform: translateX(-50%);
+}
+nav {
+  display: flex;
+  width: 100vw;
+  padding: 8px 240px;
   justify-content: space-between;
-  background: #004274;
-
-  position: relative;
-  /* height: 70px; */
+  align-items: center;
+  height: 70px;
 }
 
 header .logo {
@@ -31,7 +43,7 @@ header .logo > img {
 }
 header ul {
   display: flex;
-  gap: 30px;
+  gap: 70px;
   align-items: center;
 }
 
@@ -42,21 +54,39 @@ header ul li {
 header ul li a {
   text-decoration: none;
   color: #fff;
-
   font-size: 20px;
   letter-spacing: -1px;
   line-height: 80px;
-
   font-weight: 500;
   font-family: "Noto Sans KR";
   text-align: center;
+  transition: all 0.2s linear;
 }
-
+header ul li a:hover {
+  color: #b3956e;
+}
 header .menu-icon {
   display: inline-block;
+  position: relative;
 }
 
 header .menu-icon i {
   color: #fff;
   font-size: 30px;
+  transition: all 0.2s linear;
+  width: 31px;
+}
+header .menu-icon i:hover {
+  color: #b3956e;
+}
+.close_active {
+  display: none;
+}
+
+.menu_active .fa-bars {
+  display: none;
+}
+
+.menu_active .fa-xmark {
+  display: inline;
 }

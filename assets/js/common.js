@@ -1,4 +1,14 @@
+// menu_btn
+function toggleMenu() {
+    const navLinks = document.querySelector('nav ul');
+    const barIcon = document.querySelector('.fa-bars');
+    const closeIcon = document.querySelector('.fa-xmark');
 
+    navLinks.classList.toggle('menu_active');
+    barIcon.classList.toggle('close_active');
+    closeIcon.classList.toggle('close_active');
+}
+// 
 let currentSlide = 0;
 const slides = document.querySelectorAll('.slide_bg');
 const indicators = document.querySelectorAll('.indicator');
@@ -109,3 +119,15 @@ var swiper2 = new Swiper('.swiper-container2', {
         }
     }
   });
+//   page5_btn_active 
+function toggleActive(button) {
+    const currentlyActiveButton = document.querySelector('.active_btn');
+
+    if (currentlyActiveButton && currentlyActiveButton !== button) {
+        currentlyActiveButton.classList.remove('active_btn');
+        currentlyActiveButton.textContent = '상담완료';
+    }
+
+    button.classList.add('active_btn');
+    button.textContent = '상담중';
+}
