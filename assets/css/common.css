@@ -90,22 +90,3 @@ header .menu-icon i:hover {
 .menu_active .fa-xmark {
   display: inline;
 }
-.footer_con{
-  display: flex;
-  justify-content: space-between;
-  background-color: gray;
-}
-.footer_con .con1{
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  max-width: 85%;
-}
-.footer_con .con1 img{
-  display: flex;
-  align-items: center;
-}
-.footer_con .con2{
-  display: flex;
-  justify-content: space-around;
-}
