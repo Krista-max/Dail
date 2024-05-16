@@ -1,14 +1,6 @@
 .wrap {
   position: relative;
 }
-
-*{
-  margin: 0;
-  padding: 0;
-}
-body{
-  overflow-x: hidden;
-}
 .container {
   max-width: 1428px;
   margin: 0 auto;
@@ -98,63 +90,3 @@ header .menu-icon i:hover {
 .menu_active .fa-xmark {
   display: inline;
 }
-.footer_con{
-  background-color: rgb(101, 96, 96);
-  width: 100%;
-  height: fit-content;
-  margin: 0 auto;
-  padding: 0;
-}
-.full_container{
-  width: 80%;
-  height: fit-content;
-  margin: 0 auto;
-  /* background-color: blue; */
-}
-.footer_con .con1{
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  margin: 0 auto;
-  width: 80%;
-  height: fit-content;
-  gap: 30px;
-  align-items: center;
-}
-.footer_con  .con1 #for_copy_right{
-  font-size: 10px;
-  font-family: "NotoSansKR";
-  color: rgb(167, 167, 167);
-  line-height: 3.571;
-}
-
-.con1 img{
-  width: 150px;
-  height: 30px;
-  z-index: 51;
-  /* position: relative; */
-  /* background-color: black; */
-}
- .con2{
- display: flex;
- flex-direction: row;
- gap: 10px;
- font-size: 12px;
-  font-family: "NotoSansKR";
-  color: rgb(255, 255, 255);
-  line-height: 3.125;
-}
- .for_p{
-  font-size: 12px;
-  font-family: "NotoSansKR";
-  color: rgb(208, 208, 208);
-  line-height: 1.75;
-}
- .con3{
-  /* padding: 3.2% 2%; */
-  font-size: 12px;
-  font-family: "NotoSansKR";
-  color: rgb(255, 255, 255);
-  line-height: 3.125;
- }
- 

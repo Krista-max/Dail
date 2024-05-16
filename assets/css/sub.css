@@ -9,6 +9,379 @@
 /* common */
 
 /* Pages contents css */
+
+
+.page5 {
+    height: 520px;
+    width: 100vw;
+    position: relative;
+}
+
+.page5_banner {
+    height: 450px;
+    width: 100vw;
+    background-image: url(/assets/imgs/sub/page5_banner.png);
+    background-position: center 10%;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+.page7_banner {
+    height: 450px;
+    width: 100vw;
+    background-image: url(/assets/imgs/icons/page7_banner.png);
+    background-position: center 15%;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+.bg_wrapper {
+    width: 100vw;
+    top: 0;
+    left: 0;
+    height: 450px;
+    position: absolute;
+    background-color:rgb(0, 0, 0,0.3);
+}
+.page5_banner_content {
+    color: white;
+    text-align: center;
+    position: relative;
+
+}
+.page5_banner_content h1 {
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: -0.075em;
+    position: relative;
+}
+.page5_banner_content p {
+    font-size: 20px;
+    line-height: 75px;
+    color: rgb(222, 222, 222);
+    letter-spacing: -0.075em;
+}
+.pg5_banner_foot {
+   background-color: #171c61;
+   height: 70px;
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.pg5_bannerBtn {
+    width: 220px;
+    height: 70px;
+    position: relative;
+    padding-top: 6px;
+    color:#aeb0c8;
+    font-size: 18px;
+    line-height: 75px;
+    letter-spacing: -0.06em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 6px solid transparent;
+}
+.pg5_active {
+    border-bottom: 6px solid white;
+    color: white;
+}
+.page5_2 {
+   height: auto;
+  
+}
+.page5_container {
+    overflow: hidden;
+    padding: 105px 244px;
+}
+.page5_2_header {
+    font-size: 42px;
+    letter-spacing: -0.060em;
+    font-weight: 500;
+    text-align: center;
+}
+.page5_2_box {
+    width: 100%;
+    height: 260px;
+    margin-top: 80px;
+    background-color: #f8f8f8;
+    padding: 20px 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.page5_2_box p {
+    font-size: 16px;
+    letter-spacing: -0.06em;
+    line-height: 23px;
+    font-weight: 300;
+}
+.chk_box_gp input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    accent-color: black;
+}
+
+
+.chk_box_gp span {
+    margin-left: 10px;
+    font-size: 16px;
+    letter-spacing: -0.06em;
+}
+.chk_box_gp {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.line {
+    width: 100%;
+    height: 3px;
+    margin-top: 50px;
+    background-color: black;
+}
+.pg5_form {
+    margin-top: 50px;
+    border-top: 3px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.pg5_form input {
+    padding:0px 10px;
+}
+.pg5_form label {
+    width: 230px;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: -0.075em;
+}
+.pg5_input_1 input {
+    border: 1px solid rgb(191, 191, 191);
+    height: 50px;
+    width: 400px;
+    outline: none;
+}
+.pg5_input_1 {
+    height: 75px;
+    width: 100%;
+    padding-left: 25px;
+    display: flex;
+    justify-content: start;
+    border-bottom: 1px solid rgb(191, 191, 191);
+    align-items: center;
+}
+
+.pg5_input_2 {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    border-bottom: 1px solid rgb(191, 191, 191);
+    align-items: center;
+    gap: 5px;
+    padding-left: 20px;
+}
+.pg5_form span {
+    color: #e94f4f;
+}
+.pg5_input_2 select {
+    height: 50px;
+    width: 110px;
+    border: 1px solid rgb(191, 191, 191);
+    outline: none;
+}
+.pg5_input_2 input {
+    border: 1px solid rgb(191, 191, 191);
+    height: 50px;
+    width: 125px;
+    outline: none;
+}
+#변호사 {
+    width: 190px;
+}
+#이메일 {
+    width: 190px;
+}
+#분야 {
+    width: 600px;
+}
+#방문가능일시 {
+    width: 600px;
+}
+.pg5_input_3 {
+    height: auto;
+    display: flex;
+    text-align: start;
+    justify-content: start;
+    border-bottom: 1px solid rgb(191, 191, 191);
+    align-items: start;
+    gap: 5px;
+    width: 100%;
+    padding: 16px 0;
+    padding-left: 20px;
+}
+.pg5_input_3 textarea {
+    height: 266px;
+    border: 1px solid rgb(191, 191, 191);
+    width: 80%;
+    padding: 20px;
+    outline: none;
+}
+
+.pg5_input_3 label {
+    width: 230px;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: -0.075em;
+}
+
+.pg5_form button {
+    width: 160px;
+    height: 70px;
+    font-size: 18px;
+    background-color: #171c61;
+    color: white;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.page5_list {
+    height: 750px;
+    width: 100%;
+    /* background-color: #171c61; */
+    margin-top: 90px;
+}
+/* page5List  */
+.page5_list_header {
+    font-size: 42px;
+    letter-spacing: -0.06em;
+    font-weight:500;
+    text-align: center;
+}
+.page5_list table {
+    width: 100%;
+}
+thead tr {
+    border-top: 3px solid rgb(58, 58, 58);
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid rgb(32, 32, 32);
+}
+thead tr td  {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -0.05em;
+}
+tbody tr td {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.05em;
+}
+tbody tr {
+    height: 60px;
+    width: 100%;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    transition: background-color 0.1s linear;
+}
+tbody tr:hover {
+    background-color: #f8f8f8;
+}
+.no_list {
+    width: 10%;
+    text-align: center;
+}
+.name_list {
+    width: 60%;
+    text-align: center;
+}
+.star_list {
+    width: 10%;
+    text-align: center;
+}
+.date_list {
+    width: 10%;
+    text-align: center;
+}
+.btn_list {
+    width: 10%;
+    text-align: center;
+}
+tbody tr .name_list {
+   text-align: start;
+   font-size: 16px;
+   letter-spacing: -0.05em;
+}
+ tbody .btn_list {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.btn_non_active {
+    width: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 32px;
+    background-color: #c9c9c9;
+    border-radius: 30px;
+}
+.name_list img {
+    width: 20px;
+    margin-right: 5px;
+}
+.active_btn {
+    background-color: #e94f4f;
+    color: white;
+}
+.page7_content {
+    width: 100%;
+    height: fit-content;
+    margin-top: 60px;
+}
+.page7_content1 {
+    margin-bottom: 20px;
+}
+.page7_content1 h1 {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.06em;
+    font-weight: 600;
+}
+.page7_content1 p {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.06em;
+    font-weight: 400;
+}
+
+
+/* page7  */
+@charset "utf-8";
+@import url(fonts.css);
+
+/*-------------------------------------------------------------------
+    파일정의: Pages contents css
+    순서:    Page name > page name > page name ...
+-------------------------------------------------------------------*/
+
+/* common */
+
+/* Pages contents css */
 *{
   margin: 0;
   padding: 0;
