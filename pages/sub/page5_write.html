@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <meta name="title" content="Project Name" />
+        <meta name="keywords" content="Project Name" />
+        <meta name="description" content="Project Name" />
+
+        <title>Page5_Write</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <!-- Style -->
+        <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/sub.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/common.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/media.css">
+
+    </head>
+    <body>
+      <div class="wrap">
+        <header>
+            <nav>
+                <div class="logo">
+                 <a href="/pages/main.html"><img src="/assets/imgs/icons/logo.png" alt=""></a>
+                </div>
+                <ul>
+                     <li><a href="">다일소개</a></li>
+                     <li><a href="">구성인</a></li>
+                     <li><a href="">업무분야</a></li>
+                     <li><a href="">업무사례</a></li>
+                     <li><a href="">상담문의</a></li>
+                     <li><a href="">커뮤니티</a></li>
+                </ul>
+                <div class="menu-icon">
+                 <button> 
+                     <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+                     <i class="fa-solid fa-xmark close_active" onclick="toggleMenu()"></i>
+                 </button>
+             </div>
+                  
+              
+ 
+            
+             </nav>
+        </header>
+        <section class="page5">
+        <div class="bg_wrapper"></div>
+         <div class="page5_banner">
+            <div class="page5_banner_content">
+              <h1>상담문의</h1>
+              <p>법무법인 다일은 최고의 법률 전문가와 함께합니다.</p>
+            </div>
+         </div>
+          <div class="pg5_banner_foot">
+            <a href="/pages/sub/page5_list.html" class="pg5_bannerBtn">게시판 상담</a>
+            <a href="#"  class="pg5_bannerBtn pg5_active">방문상담</a>
+          </div> 
+        </section>
+        <section class="page5_2 page5_container ">
+            <h1 class="page5_2_header">방문상담 </h1>
+            <div class="page5_2_box">
+                <p>
+                    법무법인 태림은 정보통신망 이용촉진 및 정보보호 등에 관한 법률, 개인정보보호법 등 관련 법령상의 개인정보보호 규정을 준수하며, 정보통신망 이용촉진 및 정보보호 등에 관한 법률 제27조의2
+                    <br>에 의거하여 개인정보처리방침을 공개하여 이용자의 권익 보호에 최선을 다하고 있습니다. <br>
+                    본 개인정보처리방침은 법무법인 태림이 제공하는 제반 서비스 이용과정에서 수집되는 개인정보에 적용되며 다음과 같은 내용을 담고 있습니다.
+                </p>
+                <p>개요</p>
+               <div>
+                <p>1. 수집하는 개인정보의 항목 및 수집방법 </p>
+                <p>2. 개인정보의 수집 및 이용목적 </p>
+                <p>3. 개인정보의 보유 및 이용기간 담당자의 연락처</p>
+               </div>
+            </div>
+            <div class="chk_box_gp">
+                <label for="chk1"></label>
+                <input type="checkbox" id="chk1">
+                <label for="chk2"></label>
+                <input type="checkbox" checked id="chk2">
+                <span>인정보처리방침에 동의합니다.</span>
+            </div>
+            <form class="pg5_form">
+                <div class="pg5_input_1">
+                    <label for="">이름 <span>*</span></label>
+                    <input type="text">
+                </div>
+                <div class="pg5_input_2">
+                    <label for="">연락처 <span>*</span></label>
+                        <select name="" id="">
+                            <option value="">010</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                         </select>
+                         <span>-</span>
+                        <input type="text">
+                        <span>-</span>
+                        <input type="text">
+                </div>
+                <div class="pg5_input_2">
+                    <label for="">상담희망 변호사 <span>*</span></label>
+            
+                        <select name="" id="변호사">
+                            <option value="">선택</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                         </select>
+                </div>
+                <div class="pg5_input_2">
+                    <label for="">이메일<span></span></label>
+            
+                       <input id="이메일" type="text">
+                       <p>@</p>
+                       <input id="이메일" type="text">
+                       <select name="" id="변호사">
+                        <option value="">직접입력</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                     </select>
+                </div>
+                <div class="pg5_input_2">
+                    <label for="">분야<span></span></label>
+                       <input id="분야" type="text">
+                </div>
+                <div class="pg5_input_2">
+                    <label for="">방문가능일시<span></span></label>
+            
+                       <input id="방문가능일시" type="text">
+    
+                </div>
+                <div class="pg5_input_3">
+                    <label for="">내용<span>*</span></label>
+                       <textarea id="내용"></textarea>
+    
+                </div>
+                <div class="submit_gp">
+                    <button type="submit">상담완료</button>
+                </div>
+            </form>
+      </div>
+       
+    </section>
+      </div>
+    </body>
+
+    <!-- Script -->
+    <script src="/assets/js/common.js"></script>
+</html>

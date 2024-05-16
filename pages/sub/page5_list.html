@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page5_List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <!-- Style -->
+        <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/sub.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/common.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/media.css">
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <nav>
+                <div class="logo">
+                 <a href="/pages/main.html"><img src="/assets/imgs/icons/logo.png" alt=""></a>
+                </div>
+                <ul>
+                     <li><a href="">다일소개</a></li>
+                     <li><a href="">구성인</a></li>
+                     <li><a href="">업무분야</a></li>
+                     <li><a href="">업무사례</a></li>
+                     <li><a href="">상담문의</a></li>
+                     <li><a href="">커뮤니티</a></li>
+                </ul>
+                <div class="menu-icon">
+                 <button> 
+                     <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+                     <i class="fa-solid fa-xmark close_active" onclick="toggleMenu()"></i>
+                 </button>
+             </div>
+                  
+              
+ 
+            
+             </nav>
+        </header>
+        <section class="page5">
+            <div class="bg_wrapper"></div>
+             <div class="page5_banner">
+                <div class="page5_banner_content">
+                  <h1>상담문의</h1>
+                  <p>법무법인 다일은 최고의 법률 전문가와 함께합니다.</p>
+                </div>
+             </div>
+              <div class="pg5_banner_foot">
+                <a href="#" class="pg5_bannerBtn pg5_active">게시판 상담</a>
+                <a href="/pages/sub/page5_write.html" class="pg5_bannerBtn ">방문상담</a>
+              </div> 
+        </section>
+        <section class="page5_list_parent page5_container">
+          
+                <h1 class="page5_2_header">
+                    게시판 상담
+                </h1>
+                <div class="page5_list">
+                    <table>
+                        <thead>
+                            <tr>
+                                <td class="no_list">번호</td>
+                                <td class="name_list">제목</td>
+                                <td class="star_list">작성자</td>
+                                <td class="date_list">등록일</td>
+                                <td class="btn_list">상담여부</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="no_list">10</td>
+                                <td class="name_list"><img src="/assets/imgs/icons/padlock.png" alt="">대여금반환소송</td>
+                                <td class="star_list">김**</td>
+                                <td class="date_list">2021-06-28</td>
+                                <td class="btn_list"><button onclick="toggleActive(this)" class="btn_non_active active_btn">상담중</button></td>
+                            </tr>
+                            <tr>
+                                <td class="no_list">9</td>
+                                <td class="name_list"><img src="/assets/imgs/icons/padlock.png" alt="">성범죄로 조사를 앞두고 문의</td>
+                                <td class="star_list">김**</td>
+                                <td class="date_list">2021-06-28</td>
+                                <td class="btn_list"><button onclick="toggleActive(this)" class="btn_non_active">상담완료</button></td>
+                            </tr>
+                            <tr>
+                                <td class="no_list">8</td>
+                                <td class="name_list"><img src="/assets/imgs/icons/padlock.png" alt="">부당해고 구제신청 진행중입니다.</td>
+                                <td class="star_list">김**</td>
+                                <td class="date_list">2021-06-28</td>
+                                <td class="btn_list"><button onclick="toggleActive(this)" class="btn_non_active">상담완료</button></td>
+                            </tr>
+                            <tr>
+                                <td class="no_list">7</td>
+                                <td class="name_list"><img src="/assets/imgs/icons/padlock.png" alt="">집주인 실거주 위반 손해배상 청구</td>
+                                <td class="star_list">김**</td>
+                                <td class="date_list">2021-06-28</td>
+                                <td class="btn_list"><button onclick="toggleActive(this)" class="btn_non_active">상담완료</button></td>
+                            </tr>
+                            <tr>
+                                <td class="no_list">6</td>
+                                <td class="name_list"><img src="/assets/imgs/icons/padlock.png" alt="">안녕하세요 상표권관련 문의드립니다.</td>
+                                <td class="star_list">김**</td>
+                                <td class="date_list">2021-06-28</td>
+                                <td class="btn_list"><button onclick="toggleActive(this)" class="btn_non_active">상담완료</button></td>
+                            </tr>
+                            <tr>
+                                <td class="no_list">5</td>
+                                <td class="name_list"><img src="/assets/imgs/icons/padlock.png" alt="">자문관련</td>
+                                <td class="star_list">김**</td>
+                                <td class="date_list">2021-06-28</td>
+                                <td class="btn_list"><button onclick="toggleActive(this)" class="btn_non_active">상담완료</button></td>
+                            </tr>
+                            <tr>
+                                <td class="no_list">4</td>
+                                <td class="name_list"><img src="/assets/imgs/icons/padlock.png" alt="">횡령관련 문의드립니다. 민/형사</td>
+                                <td class="star_list">김**</td>
+                                <td class="date_list">2021-06-28</td>
+                                <td class="btn_list"><button onclick="toggleActive(this)" class="btn_non_active">상담완료</button></td>
+                            </tr>
+                            <tr>
+                                <td class="no_list">3</td>
+                                <td class="name_list"><img src="/assets/imgs/icons/padlock.png" alt="">보복성 장기 대기발령 및 직무 미부여관련 소제기</td>
+                                <td class="star_list">김**</td>
+                                <td class="date_list">2021-06-28</td>
+                                <td class="btn_list"><button onclick="toggleActive(this)" class="btn_non_active">상담완료</button></td>
+                            </tr>
+                            <tr>
+                                <td class="no_list">2</td>
+                                <td class="name_list"><img src="/assets/imgs/icons/padlock.png" alt="">법적대응문의</td>
+                                <td class="star_list">김**</td>
+                                <td class="date_list">2021-06-28</td>
+                                <td class="btn_list"><button onclick="toggleActive(this)" class="btn_non_active">상담완료</button></td>
+                            </tr>
+                            <tr>
+                                <td class="no_list">1</td>
+                                <td class="name_list"><img src="/assets/imgs/icons/padlock.png" alt="">부당이익반환 소송 가능할가요?</td>
+                                <td class="star_list">김**</td>
+                                <td class="date_list">2021-06-28</td>
+                                <td class="btn_list"><button onclick="toggleActive(this)" class="btn_non_active">상담완료</button></td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+        </section>
+    </div>
+    <script src="/assets/js/common.js"></script>
+</body>
+</html>
