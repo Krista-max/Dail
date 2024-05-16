@@ -11,16 +11,38 @@
         <title>Project Name</title>
 
         <!-- Style -->
-        <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
-        <link rel="stylesheet" type="text/css" href="/assets/css/sub.css">
-        <link rel="stylesheet" type="text/css" href="/assets/css/media.css">
-        <link rel="stylesheet" type="text/css" href="/assets/css/common.css">
-        <script src="https://kit.fontawesome.com/82f797382f.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Style -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/common.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/sub.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/media.css">
         <!-- Script -->
         
     </head>
     <body>
+       <div class="wrap">
+        <header>
+            <nav>
+               <div class="logo">
+                <a href="/pages/main.html"><img src="/assets/imgs/icons/logo.png" alt=""></a>
+               </div>
+               <ul>
+                    <li><a href="">다일소개</a></li>
+                    <li><a href="">구성인</a></li>
+                    <li><a href="">업무분야</a></li>
+                    <li><a href="">업무사례</a></li>
+                    <li><a href="">상담문의</a></li>
+                    <li><a href="">커뮤니티</a></li>
+               </ul>
+               <div class="menu-icon">
+                <button> 
+                    <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+                    <i class="fa-solid fa-xmark close_active" onclick="toggleMenu()"></i>
+                </button>
+            </div>
+            </nav>
+        </header>
         <section class="container">
             <h1>민사</h1>
             <div class="for_civil_div_container">
@@ -108,6 +130,7 @@
          </div>
      </div>
     </footer>
+       </div>
     <!-- footer end -->
     </body>
      

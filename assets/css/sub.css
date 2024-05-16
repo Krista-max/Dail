@@ -370,27 +370,13 @@ tbody tr .name_list {
 }
 
 
-/* page7  */
-@charset "utf-8";
-@import url(fonts.css);
 
-/*-------------------------------------------------------------------
-    파일정의: Pages contents css
-    순서:    Page name > page name > page name ...
--------------------------------------------------------------------*/
 
-/* common */
 
-/* Pages contents css */
-*{
-  margin: 0;
-  padding: 0;
-}
 body{
   overflow-x: hidden;
 }
-/* info.html start */
-/* doctor_con start */
+
 
 .container h1{
     font-size: 42px;
@@ -525,12 +511,12 @@ body{
   }
   .for_civil_div2 h2{
     font-size: 15px;
-  font-family: "NotoSansKR";
-  color: rgb(3, 3, 3);
-  line-height: 1.6;
-  text-align: left;
-  padding: 1% 0;
-  font-weight: 600;
+    font-family: "NotoSansKR";
+    color: rgb(3, 3, 3);
+    line-height: 1.6;
+    text-align: left;
+    padding: 1% 0;
+    font-weight: 600;
   }
   .for_civil_div2 h1{
     font-size: 36px;

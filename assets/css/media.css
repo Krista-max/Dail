@@ -11,6 +11,9 @@
     .container {
         padding: 105px 140px;
     }
+    footer {
+      padding: 20px 140px;
+    }
    
     .slide_content{
         padding: 0px 140px ;
@@ -28,10 +31,21 @@
        .page5_container {
         padding: 105px 140px;
       }
+      footer {
+        padding: 30px 140px;
+      }
+      .conts4_box {
+        height: fit-content;
+        width: 95vw;
+        padding: 20px 0px;
+      }
 }
 @media screen and (max-width: 1300.98px) {
     .container {
         padding: 105px 100px;
+    }
+    footer {
+      padding: 20px 100px;
     }
     .slide_content{
         padding: 0px 100px ;
@@ -140,6 +154,16 @@
       }
       .conts3 a {
         width: 700px;
+      }
+      .conts4 {
+        height: fit-content;
+       
+      }
+      .conts4_box {
+        height: fit-content;
+        width: 95vw;
+        gap: 50px;
+        padding: 20px 40px;
       }
       .page5_container {
         padding: 105px 100px;
@@ -292,9 +316,12 @@
         width: 40%;
         height: 400px;
       }
+      .conts4 {
+        height: fit-content;
+      }
       .conts4_box {
         width: 800px;
-        height: 100%;
+        height: fit-content;
         padding: 50px 20px;
         display: flex;
         flex-wrap: wrap;
@@ -328,11 +355,25 @@
     tbody tr td {
       font-size: 15px;
   }
+  .footer_div {
+    gap: 50px;
+  }
+  footer h3 {
+    padding: 0px;
+    text-align: start;
+  }
 
 }
 @media screen and (max-width: 767.98px) {
     .container {
         padding: 60px 10px;
+    }
+    .footer_div {
+    }
+    footer {
+      padding: 20px 10px;
+      gap: 50px;
+      
     }
     .page5_2_header {
         font-size: 32px;
@@ -452,8 +493,9 @@
         padding: 0px 60px 0px 20px;
       }
       .conts4 {
-        height: fit-content;
+        height: 100%;
         display: flex;
+        padding: 50px 0px;
         justify-content: center;
         align-items: center;
         width: 100vw;
@@ -498,6 +540,9 @@
 @media screen and (max-width: 575.98px) {
     .container {
         padding: 50px 10px;
+    }
+    footer {
+      padding: 20px 10px;
     }
     .page5_2_header {
         font-size: 24px;

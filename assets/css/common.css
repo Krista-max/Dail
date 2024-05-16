@@ -90,3 +90,61 @@ header .menu-icon i:hover {
 .menu_active .fa-xmark {
   display: inline;
 }
+.menu-icon button {
+  background-color: transparent;
+  width: fit-content;
+}
+footer {
+  background-color: #444444;
+  color: #d2d2d2;
+  width: 100vw;
+  padding: 48px 240px;
+}
+.footer_div {
+    display: flex;
+    align-items: end;
+    flex-wrap: wrap;
+}
+.footer_1 {
+  margin-right: 70px;
+  align-self: center;
+}
+.footer_1 img {
+  width: 180px;
+}
+.footer_2 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.footer_2_header {
+  display: flex;
+  gap: 30px;
+  font-size: 16px;
+  line-height: 50px;
+  color: white;
+  letter-spacing: -0.05em;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.footer2_2 h5 {
+  margin-top: 20px;
+}
+footer p {
+  line-height: 28px;
+  letter-spacing: -0.05em;
+  font-size: 16px;
+  font-weight: 200;
+}
+.footer_3 {
+  align-self: center;
+}
+.footer_3 span{
+   margin-left: 10px;
+}
+footer h3 {
+  padding-left: 250px;
+  font-size: 14px;
+  margin-top: 20px;
+  color: #a7a7a7;
+}
