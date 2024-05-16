@@ -79,6 +79,12 @@ header .menu-icon i {
 header .menu-icon i:hover {
   color: #b3956e;
 }
+header .menu-icon button {
+  width: fit-content;
+  padding: 0;
+  margin: 0%;
+  background-color: transparent;
+}
 .close_active {
   display: none;
 }
@@ -89,4 +95,51 @@ header .menu-icon i:hover {
 
 .menu_active .fa-xmark {
   display: inline;
+}
+footer {
+  padding: 50px 240px;
+  background-color: #444444;
+  color: #d0d0d0;
+  height: fit-content;
+}
+.footer_div {
+  display: flex;
+  flex-wrap: wrap ;
+  align-items: end;
+  padding: 20px 0;
+  justify-content: start;
+}
+footer p {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 300;
+}
+.footer_1 {
+  margin-right: 70px;
+  align-self: center;
+}
+.footer_1 img {
+  width: 180px;
+}
+.footer_2_header {
+  display: flex;
+  gap: 38px;
+}
+.footer_2_header h1 {
+  font-size: 16px;
+  line-height: 50px;
+  color: white;
+  font-weight: 400;
+}
+.footer2_2 {
+  margin-right: 20px;
+}
+.footer_3 span {
+  margin-left: 10px;
+}
+footer h3 {
+  padding-left:250px;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 200;
 }

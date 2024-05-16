@@ -191,6 +191,13 @@
     tbody tr td {
       font-size: 15px;
   }
+  .footer_div {
+    gap: 40px;
+  }
+  footer h3 {
+    padding-left:0px;
+   text-align: start;
+  }
 }
 @media screen and (max-width: 1000.98px) {
     .container {
@@ -355,6 +362,7 @@
     tbody tr td {
       font-size: 15px;
   }
+ 
 
 }
 @media screen and (max-width: 767.98px) {
@@ -919,7 +927,15 @@
 .page01 .cus_service .cus_service_inner .box .txt .con{
     font-size: 12px;
   }
-
+  .doctor_con{
+    flex-wrap: wrap;
+  }
+  .for_civil_div_container{
+    flex-wrap: wrap;
+  }
+  .업무사례_container{
+    flex-wrap: wrap;
+  }
   .footer_con  .con1{
     display: flex;
     padding: 0 2%;
@@ -927,6 +943,9 @@
   }
   .con2{
     display: flex;
+    flex-wrap: wrap;
+  }
+  .list_div_container{
     flex-wrap: wrap;
   }
 
@@ -1094,17 +1113,7 @@
       .page5_container {
         padding: 60px 10px;
       }
-      header ul{
-        position: absolute;
-        top: 70px;
-        left: 0;
-        right: 0;
-        flex-direction: column;
-        text-align: center;
-        background: #004274;
-        gap: 0;
-        overflow: hidden;
-    }
+   
     header ul li{
         padding: 20px;
         margin: 0;
@@ -1116,7 +1125,44 @@
     .page5_banner_content h1 {
         font-size: 30px;
     }
-
+    .doctor_con{
+      flex-wrap: wrap;
+    }
+    .doctor_con img{
+      width: 400px;
+      height: 500px;
+    }
+    .doctor_con .div1{
+      padding: 4% 14%;
+    }
+    .doctor_con .for_line{
+      width: 500px;
+    }
+    .doctor_con .for_line2{
+      width: 500px;
+    }
+    .div1 .div1_text{
+      font-size: 20px;
+      width: 120px;
+    }
+    .div1 .for_crack{
+      font-size: 12px;
+    }
+    .div1 i{
+    font-size: 18px;
+    }
+    .div1 .div1_text span{
+      font-size: 15px;
+    }
+    .for_civil_div_container{
+      flex-wrap: wrap;
+    }
+    .업무사례_container{
+      flex-wrap: wrap;
+    }
+    .list_div_container{
+      flex-wrap: wrap;
+    }
 }
 @media screen and (max-width: 575.98px) {
     .container {
@@ -1211,6 +1257,32 @@
       .doctor_con{
         flex-wrap: wrap;
       }
+      .doctor_con img{
+        width: 300px;
+        height: 400px;
+      }
+      .doctor_con .div1{
+        padding: 4% 9%;
+      }
+      .doctor_con .for_line{
+        width: 400px;
+      }
+      .doctor_con .for_line2{
+        width: 400px;
+      }
+      .div1 .div1_text{
+        font-size: 18px;
+        width: 110px;
+      }
+      .div1 .for_crack{
+        font-size: 10px;
+      }
+      .div1 i{
+      font-size: 16px;
+      }
+      .div1 .div1_text span{
+        font-size: 13px;
+      }
       .for_civil_div_container{
         flex-wrap: wrap;
       }
@@ -1289,6 +1361,32 @@
     }
     .doctor_con{
       flex-wrap: wrap;
+    }
+    .doctor_con img{
+      width: 300px;
+      height: 400px;
+    }
+    .doctor_con .div1{
+      padding: 4% 9%;
+    }
+    .doctor_con .for_line{
+      width: 400px;
+    }
+    .doctor_con .for_line2{
+      width: 400px;
+    }
+    .div1 .div1_text{
+      font-size: 18px;
+      width: 110px;
+    }
+    .div1 .for_crack{
+      font-size: 10px;
+    }
+    .div1 i{
+    font-size: 16px;
+    }
+    .div1 .div1_text span{
+      font-size: 13px;
     }
     .for_civil_div_container{
       flex-wrap: wrap;
