@@ -800,10 +800,10 @@ body{
   .for_civil_div2 p{
     font-size: 15px;
     font-family: 'Noto Sans KR';
-  color: rgb(102, 102, 102);
-  line-height: 1.7;
-  text-align: left;
-  z-index: 28;
+   color: rgb(102, 102, 102);
+   line-height: 1.7;
+   text-align: left;
+    z-index: 28;
     padding: 4% 0;
   }
   .업무사례_container{
