@@ -752,7 +752,7 @@ body{
 }
  .container .heading{
     font-size: 32px;
-  font-family: "NotoSansKR";
+    font-family: 'Noto Sans KR';
   color: rgb(0, 0, 0);
   line-height: 2.344;
   text-align: center;
@@ -781,11 +781,7 @@ body{
     padding: 5% 2%;
   }
   .for_civil_div2 h2{
-<<<<<<< HEAD
-    font-size: 20px;
-=======
     font-size: 15px;
->>>>>>> 52b6a9ecd2a946ea9af02e385a8bdbde27b1a923
     font-family: 'Noto Sans KR';
     color: rgb(3, 3, 3);
     line-height: 1.6;
@@ -794,13 +790,8 @@ body{
     /* font-weight: 600; */
   }
   .for_civil_div2 h1{
-<<<<<<< HEAD
     font-size: 46px;
-    font-family: "NotoSerifKR";
-=======
-    font-size: 36px;
-    font-family: "Noto Serif KR", serif;
->>>>>>> 52b6a9ecd2a946ea9af02e385a8bdbde27b1a923
+    font-family: "Noto Sans KR";
     color: rgb(15, 126, 230);
     font-weight: bold;
     line-height: 0.696;
@@ -810,15 +801,6 @@ body{
     padding: 2% 0; */
   }
   .for_civil_div2 p{
-<<<<<<< HEAD
-    font-size: 20px;
-    font-family: "NotoSansKR";
-    color: rgb(102, 102, 102);
-    line-height: 1.7;
-    text-align: left;
-    z-index: 28;
-    padding: 0 6%;
-=======
     font-size: 15px;
     font-family: 'Noto Sans KR';
    color: rgb(102, 102, 102);
@@ -826,7 +808,6 @@ body{
    text-align: left;
     z-index: 28;
     padding: 4% 0;
->>>>>>> 52b6a9ecd2a946ea9af02e385a8bdbde27b1a923
   }
   .업무사례_container{
     display: flex;
