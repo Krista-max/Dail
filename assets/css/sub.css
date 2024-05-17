@@ -621,66 +621,69 @@ body{
 }
  .container .heading{
     font-size: 32px;
-    font-family: "NotoSansKR";
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 4%;
-    font-weight: 600;
+  font-family: "NotoSansKR";
+  color: rgb(0, 0, 0);
+  line-height: 2.344;
+  text-align: center;
+  z-index: 33;
  }
   .for_civil_div_container{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     align-items: center;
     margin: 0 auto;
-    padding: 5% auto;
+    /* padding: 5% auto; */
   }
   .for_civil_div1 img{
-    width: 100%;
-    height: 400px;
+    width: 716px;
+    height: 534px;
     z-index: 25;
   }
   .for_civil_div2{
-    width: 600px;
-    height: 400px;
+    width: 716px;
+    height: 534px;
+    z-index: 27;
     background-color: whitesmoke;
-    padding: 3%;
+    padding: 5% 2%;
   }
   .for_civil_div2 h2{
-    font-size: 15px;
-    font-family: "NotoSansKR";
+    font-size: 20px;
+    font-family: 'Noto Sans KR';
     color: rgb(3, 3, 3);
     line-height: 1.6;
-    text-align: left;
-    padding: 1% 0;
-    font-weight: 600;
+    z-index: 29;
+    padding: 0 6%;
+    /* font-weight: 600; */
   }
   .for_civil_div2 h1{
-    font-size: 36px;
+    font-size: 46px;
     font-family: "NotoSerifKR";
     color: rgb(15, 126, 230);
     font-weight: bold;
     line-height: 0.696;
+    z-index: 30;
     text-align: left;
-    padding: 2% 0;
+    /* text-align: left;
+    padding: 2% 0; */
   }
   .for_civil_div2 p{
-    font-size: 15px;
-  font-family: "NotoSansKR";
-  color: rgb(102, 102, 102);
-  line-height: 1.7;
-  text-align: left;
-  z-index: 28;
-    padding: 4% 0;
+    font-size: 20px;
+    font-family: "NotoSansKR";
+    color: rgb(102, 102, 102);
+    line-height: 1.7;
+    text-align: left;
+    z-index: 28;
+    padding: 0 6%;
   }
   .업무사례_container{
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 10px;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
   }
   .for_업무사례_container{
@@ -740,13 +743,14 @@ body{
     align-items: center;
   }
   .for_업무사례_container button{
-    background-color: #0c3c60;
+    background-color: #171c61;
     font-size: 18px;
   font-family: "NotoSansKR";
   color: rgb(255, 255, 255);
   text-align: center;
   padding: 1%;
-  width: 170px;
+  width: 207px;
+  height: 69px;
   border-radius: 2%;
   }
   /* info_2 end */
@@ -824,7 +828,6 @@ body{
     display: flex;
     justify-content: flex-end;
    width: 100%;
-   padding-right: 10%;
   }
   .container .for_select_container{
     font-size: 16px;
@@ -859,12 +862,13 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 30px;
-    width: 80%;
+    gap: 20px;
+    width: 100%;
     margin: 0 auto;
     padding: 2% 0;
   }
   .list_div{
+    width: 100%;
     background-color: whitesmoke;
     border: 2px solid whitesmoke;
     padding: 2%;
@@ -876,24 +880,28 @@ body{
   }
   .list_div h3{
     font-size: 18px;
-  font-family: "NotoSansKR";
-  color: rgb(15, 126, 230);
-  line-height: 4.444;
+    font-family: "NotoSansKR";
+    color: rgb(15, 126, 230);
+    line-height: 4.444;
+    text-align: left;
+    z-index: 99;
   }
   .list_div h4{
-    font-size: 17px;
+    font-size: 20px;
     font-family: "NotoSansKR";
-    color: rgb(0, 0, 0);
+    color: rgb(2, 2, 2);
     line-height: 1.4;
     text-align: left;
+    z-index: 92;
     font-weight: 600;
   }
   .list_div p{
-    font-size: 13px;
+    font-size: 16px;
     font-family: "NotoSansKR";
     color: rgb(68, 68, 68);
     line-height: 1.563;
     text-align: left;
+    z-index: 93;
     padding: 3% 0;
   }
   .list_div .date{
@@ -904,13 +912,15 @@ body{
     text-align: left;
     padding: 3% 0;
   }
-  /* .list_div img{
+  .list_div img{
     width: 32px;
     height: 13px;
-  } */
-  .date i{
-    padding-left: 60%;
+    margin-left: 72%;
   }
+  /* .date i{
+    font-size: 50px;
+    padding: 5%;
+  } */
   .list_container2{
     display: flex;
     flex-direction: row;
