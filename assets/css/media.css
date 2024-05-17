@@ -431,6 +431,10 @@
           .pg1_content1 {
             gap: 40px;
           }
+          .pg1_content1 img {
+            max-width: 400px;
+            width: 100%;
+        }
               .pg1_content h5 {
                 font-size: 24px;
 
