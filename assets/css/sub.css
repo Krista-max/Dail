@@ -781,7 +781,7 @@ body{
   }
   .for_civil_div2 h2{
     font-size: 15px;
-    font-family: "NotoSansKR";
+    font-family: 'Noto Sans KR';
     color: rgb(3, 3, 3);
     line-height: 1.6;
     text-align: left;
@@ -790,7 +790,7 @@ body{
   }
   .for_civil_div2 h1{
     font-size: 36px;
-    font-family: "NotoSerifKR";
+    font-family: "Noto Serif KR", serif;
     color: rgb(15, 126, 230);
     font-weight: bold;
     line-height: 0.696;
@@ -799,7 +799,7 @@ body{
   }
   .for_civil_div2 p{
     font-size: 15px;
-  font-family: "NotoSansKR";
+    font-family: 'Noto Sans KR';
   color: rgb(102, 102, 102);
   line-height: 1.7;
   text-align: left;

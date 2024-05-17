@@ -277,7 +277,6 @@
   background-image: url(/assets/imgs/main/main_3_bg.png);
   width: 100vw;
   height: 500px;
-  object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
