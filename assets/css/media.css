@@ -1148,15 +1148,25 @@
         font-size: 20px;
         line-height: 40px;
       }
+      .conts1 {
+        height: fit-content;
+      }
       .conts1_header {
         padding-top: 40px;
         font-size: 34px;
+      }
+      .conts2 {
+        width: 100vw;
+        height: 450px;
+        margin-top: 50px;
       }
       .main_sliders {
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 100vw;
+        height: fit-content;
+        margin-bottom: 50px;
         padding:0px 20px; 
         overflow: hidden;
       }
