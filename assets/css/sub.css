@@ -1,6 +1,6 @@
 @charset "utf-8";
 @import url(fonts.css);
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&display=swap');
 /*-------------------------------------------------------------------
     파일정의: Pages contents css
     순서:    Page name > page name > page name ...
@@ -9,7 +9,83 @@
 /* common */
 
 /* Pages contents css */
+.page1_logo_header {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 60px;
+    font-weight: 500;
+    color: #171c61;
+    letter-spacing: -0.05em;
+}
+.page1_header2 {
+    font-size: 46px;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 500;
+    letter-spacing: -0.06em;
+    margin-bottom: 85px;
+    font-family: "Noto Serif KR", serif;
+}
+.page_1 {
+    padding-top: 75px;
+}
+.pg1_banner2 {
+    width: 100vw;
+    height: 505px;
+    background-image: url(/assets/imgs/icons/pg1_banner2.png);
+    position: relative;
+    background-size: cover;
+    background-position: 50% center ;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.bg_wrapper_2 {
+    width: 100vw;
+    height: 505px;
+    background-color: rgb(0, 0, 0,0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.pg1_banner2 h2 {
+   font-size: 32px;
+   line-height: 75px;
+}
+.pg1_banner2 h1 {
+    font-size: 46px;
+    line-height: 75px;
+    font-weight: 500;
+    font-family: "Noto Serif KR", serif;
+    color: #e5be74;
+}
+.pg1_banner2 p {
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: -0.05em;
+    margin-top: 10px;
+}
+.page1_1 {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+}
+.page1_1_header {
+    font-size: 32px;
+    line-height: 45px;
+    letter-spacing: -0.06em;
+    font-weight: 500;
+    width: fit-content;
+    border-bottom: 1px solid black;
+    margin-top: 80px;
+}
 
 .page5 {
     height: 520px;
@@ -27,6 +103,61 @@
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
+}
+.page1_banner {
+    height: 450px;
+    width: 100vw;
+    background-image: url(/assets/imgs/icons/page01_banner.png);
+    background-position: center 5%;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+.page1_content_div {
+    margin: 0 auto;
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.pg1_content1 {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+    align-items: center;
+}
+.pg1_content {
+    max-width: 790px;
+    width: 100%;
+} 
+.pg1_content h5 {
+    font-size: 24px;
+    font-weight: 300;
+    color: #0f7ee6;
+    line-height: 75px;
+}
+.pg1_content h5 span {
+    margin-left: 10px;
+} 
+.pg1_content1 h1 {
+   font-size: 40px;
+   font-family: "Noto Serif KR", serif;
+   font-weight: 600;
+   line-height: 75px;
+   letter-spacing: -0.07em;
+}
+.pg1_content1 p {
+    font-size: 18px;
+    letter-spacing: 32px;
+    letter-spacing: -0.08em;
+    font-weight: 400;
+}
+.pg1_content1 img {
+    max-width: 580px;
+    width: 100%;
 }
 .page7_banner {
     height: 450px;
