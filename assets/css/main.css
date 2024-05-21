@@ -302,14 +302,15 @@
 }
 .inn p {
   font-size: 22px;
-  color: white;
+  color: rgb(243, 243, 243);;
   text-align: center;
   font-weight: 300;
   line-height: 40px;
   letter-spacing: -0.002em;
+  font-family: "Noto Sans KR Regular";
 }
 .inn a {
-  color: white;
+ color: rgb(243, 243, 243);;
   width: 160px;
   margin-top: 66px;
   display: flex;
@@ -317,7 +318,8 @@
   align-items: center;
   gap: 40px;
   height: 50px;
-  border: 1px solid white;
+  border: 1px solid rgb(243, 243, 243);;
+  font-family: "Noto Sans KR Light";
 }
 .inn a img {
   width: 6px;

@@ -85,6 +85,11 @@ header .menu-icon button {
   margin: 0%;
   background-color: transparent;
 }
+.for_navbar_line{
+   width: 100%;
+   margin-top: 96px;
+   border-bottom: 1px solid #6d6867;
+}
 .close_active {
   display: none;
 }
