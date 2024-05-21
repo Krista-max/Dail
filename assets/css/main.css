@@ -334,10 +334,11 @@
   align-items: center;
   width: 100vw;
   flex-direction: column;
+  padding-bottom: 98px;
 }
 .conts3_header {
   text-align: center;
-  padding-top: 80px;
+  padding-top: 90px;
   font-size: 44px;
   font-weight: 500;
 }
